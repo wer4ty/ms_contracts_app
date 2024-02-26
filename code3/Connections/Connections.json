@@ -1,0 +1,96 @@
+{
+  "1ae53111-2e41-4c2c-8306-f5004e40b830": {
+    "appActions": [
+      "SendEmailV2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1676/1.0.1676.3617/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1ae53111-2e41-4c2c-8306-f5004e40b830"
+  },
+  "58b900a6-fe5f-49ec-82a6-2bc68042f99a": {
+    "appActions": [
+      "ListGroupMembers"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Groups",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365groups/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365groups",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Groups"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "58b900a6-fe5f-49ec-82a6-2bc68042f99a"
+  },
+  "aec8acbc-0468-4919-8f05-79a6d4e8125e": {
+    "appActions": [
+      "MyProfile_V2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1672/1.0.1672.3545/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "aec8acbc-0468-4919-8f05-79a6d4e8125e"
+  },
+  "c06e79c8-ca2d-40cf-b05b-ff32d60da2c6": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1676/1.0.1676.3617/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://daletww-my.sharepoint.com/personal/rchychkovych_dalet_com": {
+        "dataSources": {
+          "Contract_test": {
+            "tableName": "d28f3e21-69a6-4ae0-8f62-8ffa7febf0dc"
+          },
+          "History_contract_list": {
+            "tableName": "6ed741fe-4d6c-4f17-810d-1b192b5b1473"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Contract_test",
+      "History_contract_list"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c06e79c8-ca2d-40cf-b05b-ff32d60da2c6"
+  }
+}
