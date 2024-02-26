@@ -6,7 +6,7 @@ Screen3 As screen:
         Fill: =RGBA(0, 0, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =65
-        Size: =18
+        Size: =20
         Text: ="Edit"
         Width: =1366
         ZIndex: =1
